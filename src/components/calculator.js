@@ -1,7 +1,7 @@
-import Display from './display';
+import CalculatorDisplay from './calculator-display';
 
 const Calculator = () => (
-  <Display />
+  <CalculatorDisplay />
 );
 
 export default Calculator;

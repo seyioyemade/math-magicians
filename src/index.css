@@ -2,12 +2,19 @@ html {
   font-size: 62.5%;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60rem;
+}
+
 th {
   text-align: right;
   background-color: rgb(170, 170, 170);
   color: white;
-  padding: 1.5rem 0.5rem;
-  font-size: 2rem;
+  padding: 2rem 0.5rem;
+  font-size: 2.2rem;
 }
 
 table,
@@ -18,8 +25,6 @@ td {
 }
 
 td {
-  padding: 1.5rem 3rem;
-  font-size: 1.2rem;
   background-color: rgb(230, 230, 230);
   font-weight: 600;
   text-align: center;
@@ -27,4 +32,11 @@ td {
 
 td:last-child {
   background-color: rgb(230, 149, 0);
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  padding: 2rem 3.8rem;
 }
