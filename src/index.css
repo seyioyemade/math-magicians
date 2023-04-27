@@ -13,7 +13,7 @@ th {
   text-align: right;
   background-color: rgb(170, 170, 170);
   color: white;
-  padding: 1.5rem 0.5rem;
+  padding: 2rem 0.5rem;
   font-size: 2.2rem;
 }
 
@@ -25,7 +25,6 @@ td {
 }
 
 td {
-  padding: 1.5rem 3rem;
   background-color: rgb(230, 230, 230);
   font-weight: 600;
   text-align: center;
@@ -39,4 +38,5 @@ button {
   background: none;
   border: none;
   font-size: 1.4rem;
+  padding: 2rem 3.8rem;
 }
