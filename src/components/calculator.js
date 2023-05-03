@@ -1,7 +1,15 @@
+import Navbar from './Navbar';
 import CalculatorDisplay from './calculator-display';
 
 const Calculator = () => (
-  <CalculatorDisplay />
+  <>
+    <Navbar />
+    <div className="calculator-page">
+      <h2>Let&apos;s do some math!</h2>
+      <CalculatorDisplay />
+    </div>
+  </>
+
 );
 
 export default Calculator;
