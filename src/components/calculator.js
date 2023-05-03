@@ -1,5 +1,5 @@
 import Navbar from './Navbar';
-import CalculatorDisplay from './Calculator-display';
+import CalculatorDisplay from './calculator-display';
 
 const Calculator = () => (
   <>
