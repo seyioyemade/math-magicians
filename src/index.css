@@ -1,16 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
 
-.app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5rem;
+body {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3rem 5rem;
 }
 
-section {
-  margin-top: 5rem;
+header, ul, .calculator-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+header, h2 {
+  margin-bottom: 4rem;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+.calculator-page > h2 {
+  color: #1a1a1a;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+ul {
+  gap: 3rem;
+}
+
+ul>li:nth-child(2) {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 0 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: blue;
 }
 
 th {
@@ -42,9 +82,13 @@ button {
   background: none;
   border: none;
   font-size: 1.4rem;
-  padding: 2rem 3.8rem;
+  padding: 3rem 9.8rem;
 }
 
 .quote {
   font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
 }
