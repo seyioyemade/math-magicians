@@ -14,12 +14,15 @@ body {
   padding: 3rem 5rem;
 }
 
-header, ul, .calculator-page {
+header,
+ul,
+.calculator-page {
   display: flex;
   justify-content: space-between;
 }
 
-header, h2 {
+header,
+h2 {
   margin-bottom: 4rem;
 }
 
@@ -39,14 +42,14 @@ ul {
   gap: 3rem;
 }
 
-ul>li:nth-child(2) {
+li {
+  list-style: none;
+}
+
+ul > li:nth-child(2) {
   border-left: 2px solid black;
   border-right: 2px solid black;
   padding: 0 2rem;
-}
-
-li {
-  list-style: none;
 }
 
 a {
